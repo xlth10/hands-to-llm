@@ -1,4 +1,10 @@
-﻿# Hands-On Large Language Models CN(ZH)  -- 动手学大模型
+﻿# hands-to-llm — Hands-On Large Language Models 中文原理注释版
+
+## 学习注释版说明
+
+本仓库以 [Hands-On-Large-Language-Models-CN](https://github.com/bbruceyuan/Hands-On-Large-Language-Models-CN) 为基础，为各章 notebook 增加面向初学者的中文原理拆解。原有英文标题、说明和代码均保留；新增内容重点解释 tokenization、模型前向计算、embedding、检索、评估与微调中的数据流和关键假设。
+
+如果在 Python 3.13 环境中运行，固定使用旧版 Transformers/Tokenizers 可能因为没有匹配的预编译包而失败；建议使用 notebook 给出的较新依赖范围，或使用 Python 3.12 复现旧版依赖。
 
 <p align="center">
   <a href="https://apecode.ai/zh"><img src="https://img.shields.io/badge/🦧_ApeCode.ai-AI_Tools_&_Learning-orange?style=flat-square" alt="ApeCode.ai"/></a>
